@@ -12,8 +12,8 @@ def user_input(user_question):
             st.write("Reply: ",message.content)
 
 def main():
-    st.set_page_config("Information Retrival System 👩‍💻")  # name of the web page on bar
-    st.header("Information-Retrival-System") # Header on web page
+    st.set_page_config("Information Retrival System 👩‍💻") 
+    st.header("Information-Retrival-System") 
 
     user_question=st.text_input("Ask a Question from the PDF files")
 
